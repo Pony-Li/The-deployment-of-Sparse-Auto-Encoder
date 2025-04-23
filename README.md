@@ -6,7 +6,9 @@ The entire repository is developed based on the repository of OpenAI(https://git
 ### Code structure
 
 [get_activations_from_gpt2.py](./sparse_autoencoder/get_activations_from_gpt2.py) shows how to prepare training data.
+
 [train.py](./sparse_autoencoder/train.py) shows how to train a Sparse autoencoder using the data we've collected. Unlike other versions, this code perfectly solve the dead latents dilemma leveraging auxk and some weights initialization techniques.
+
 [interpretation.py](./sparse_autoencoder/interpretation.py) marks top-activation texts for 384 latent dimensions of the trained Sparse autoencoder.
 
 # The following content is excerpted from OpenAI's Official repository: 
