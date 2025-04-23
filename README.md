@@ -11,7 +11,7 @@ The entire repository is developed based on the repository of OpenAI(https://git
 
 [interpretation.py](./sparse_autoencoder/interpretation.py) marks top-activation texts for 384 latent dimensions of the trained Sparse autoencoder.
 
-# The following content is excerpted from OpenAI's Official repository: 
+# The following content is directly excerpted from OpenAI's repository: 
 
 # Sparse autoencoders
 
